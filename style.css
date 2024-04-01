@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* width: 50%; */
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+h1{
+    text-align: center;
+    /* margin-bottom: 15px; */
+    color: palevioletred;
+}
+
+/* .container{
+    /* max-width: 360px; */
+    /* margin-left: 10%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap; */
+    /* flex-shrink:1 ; */
+ 
+
+#inputField{
+    width: clamp(250px, 10vw,380px);
+    padding: 6px;
+    /* max-height: 46px; */
+    border: 3px solid pink;
+    outline: none;
+    font-size: 1.5rem;
+    /* vertical-align: middle; */
+    border-radius: 4px;
+    color: palevioletred;
+}
+
+#inputField:focus,
+#inputField:hover{
+    background-color: #fcf4f7;
+}
+
+#addtodo{
+    padding: 9px 12px;
+    color: #d31d59;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #ffdddd;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    transform: translateY(-4px);
+    box-shadow: 0px 4px pink;
+    transition: transform ease 0.3s, box-shadow ease 0.3s, background-color ease 0.3s;
+}
+
+#addtodo:active{
+    transform: translateY(2px);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#addtodo:hover{
+    background-color: rgb(252, 209, 216);
+    cursor: pointer;
+}
+
+.paragragh-styling{
+ cursor: pointer;
+ font-size: 1.2rem;
+ margin: 0;   
+ color: #d31d5aa1;
+border: 3px dotted pink;
+margin: 10px auto;
+padding: 12px;
+border-radius: 8px;
+}
+
+
+.paragragh-styling:hover{
+    border: solid hwb(350 82% 0%);
+}
